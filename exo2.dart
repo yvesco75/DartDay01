@@ -1,5 +1,4 @@
-
-// lancer de simple
+// lancer dé simple
 
 import 'dart:math';
 
@@ -20,7 +19,7 @@ import 'dart:math';
 
 // Fonction principale
 void main() {
-  int nombreDeLancers = 10; // Définir le nombre de lancers
+  int nombreDeLancers = 10; 
   lancerDeMultiple(nombreDeLancers);
 }
 
