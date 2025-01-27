@@ -14,8 +14,6 @@ int lancerDe() {
 }
 
 
-
-
 /// Fonction qui effectue plusieurs lancers de dé et affiche le résultat
 
 import 'dart:math';
@@ -47,13 +45,13 @@ int lancerDe() {
 
 import 'dart:math';
 
-/// Fonction principale
+// Fonction principale
 void main() {
   int objectif = 3;
   lancerDeEnBoucle(objectif);
 }
 
-/// Fonction qui effectue plusieurs lancers de dé
+// Fonction qui effectue plusieurs lancers de dé
 
 void lancerDeEnBoucle(int objectif) {
   print("lancer le dé jusqu'a obtenir $objectif fois 6");
@@ -71,12 +69,7 @@ void lancerDeEnBoucle(int objectif) {
   }
 }
 
-/// Fonction qui génère un nombre aléatoire entre 1 et 6
+// Fonction qui génère un nombre aléatoire entre 1 et 6
 int lancerDe() {
   return Random().nextInt(6) + 1; // Génère un nombre aléatoire entre 1 et 6
 }
-
-
-
-
-
